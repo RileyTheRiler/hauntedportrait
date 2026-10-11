@@ -1,0 +1,50 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#0c0a12"><title>The Haunted Portrait · Display</title><link rel="stylesheet" href="/assets/app.css"><link rel="manifest" href="/manifest-portrait.json"><link rel="icon" href="/assets/icon-192.png"><meta name="mobile-web-app-capable" content="yes"></head>
+<body class="portrait-page character-morrow"><div id="portrait-app" class="portrait-app">
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <div class="portrait-stage" id="portraitStage">
+    <div class="ornate-frame"><div class="frame-inset"><div class="painting">
+      <div class="painting-stars" aria-hidden="true">✦ <span>✧</span> ✦</div>
+      <div class="moon-halo"></div>
+      <svg class="portrait-person" id="portraitPerson" viewBox="0 0 500 650" xmlns="http://www.w3.org/2000/svg" aria-label="An animated spectral Victorian character" role="img">
+        <defs>
+          <linearGradient id="cloak" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#20212f"/><stop offset=".5" stop-color="#10121e"/><stop offset="1" stop-color="#090c16"/></linearGradient>
+          <linearGradient id="face" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ddd8c9"/><stop offset=".5" stop-color="#aebbb4"/><stop offset="1" stop-color="#6d7c7b"/></linearGradient>
+          <radialGradient id="eyes"><stop stop-color="#f3e6c9"/><stop offset="1" stop-color="#9bb1a6"/></radialGradient>
+        </defs>
+        <ellipse cx="247" cy="608" rx="230" ry="195" fill="url(#cloak)"/>
+        <path d="M38 645 C60 530 115 495 174 463 L322 463 C400 499 461 544 476 645" fill="url(#cloak)" stroke="#6a6874" stroke-width="3"/>
+        <path d="M183 458 Q251 505 319 460 L297 650 H203 Z" fill="#e1d2b3" opacity=".65"/>
+        <path d="M148 495 Q215 544 232 648 L106 648Z" fill="#161625" stroke="#3c3650" stroke-width="3"/>
+        <path d="M352 495 Q284 544 265 648 L396 648Z" fill="#161625" stroke="#3c3650" stroke-width="3"/>
+        <path d="M221 461 L221 524 L248 550 L278 522 L278 461" fill="#677976"/>
+        <path d="M126 284 Q99 167 157 106 Q202 53 265 58 Q356 67 381 179 Q401 288 345 383 Q327 455 254 478 Q176 454 153 400 Q111 344 126 284Z" fill="#151521" stroke="#66516b" stroke-width="4"/>
+        <path d="M157 220 Q142 127 201 107 Q260 86 309 118 Q362 142 352 220 L340 347 Q320 441 251 462 Q182 441 163 346Z" fill="url(#face)" stroke="#555d62" stroke-width="3"/>
+        <path d="M158 199 Q146 113 200 106 Q252 61 313 111 Q362 116 351 207 C329 183 323 163 317 144 Q286 179 251 181 Q198 198 158 199Z" fill="#171827"/>
+        <path d="M164 277 Q151 261 143 281 Q138 312 164 336 M343 275 Q365 258 364 292 Q365 316 341 336" fill="none" stroke="#a5a8a0" stroke-width="8" stroke-linecap="round"/>
+        <path id="browLeft" d="M178 272 Q209 250 231 266" stroke="#252e35" stroke-width="11" stroke-linecap="round" fill="none"/><path id="browRight" d="M269 266 Q296 249 330 270" stroke="#252e35" stroke-width="11" stroke-linecap="round" fill="none"/>
+        <path d="M180 300 Q202 284 229 297 Q206 316 180 300 M270 297 Q296 284 322 300 Q299 315 270 297" fill="url(#eyes)" stroke="#3e4c4b" stroke-width="3"/>
+        <g id="pupils"><circle cx="205" cy="299" r="8" fill="#171b27"/><circle cx="296" cy="299" r="8" fill="#171b27"/><circle cx="208" cy="296" r="2.5" fill="#fefbe1"/><circle cx="299" cy="296" r="2.5" fill="#fefbe1"/></g>
+        <g id="eyelids"><path d="M176 280 Q205 278 235 282 L235 321 Q206 326 176 317 Z" fill="#aebbb4"/><path d="M266 282 Q295 278 325 280 L325 317 Q295 326 266 321 Z" fill="#aebbb4"/></g>
+        <path d="M247 285 Q236 330 230 346 Q250 359 267 346" stroke="#64716f" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <path d="M216 377 Q250 366 284 378" stroke="#514446" fill="none" stroke-width="5" stroke-linecap="round"/>
+        <g id="mouthGroup"><ellipse cx="250" cy="393" rx="29" ry="7" fill="#20131d"/><path d="M224 389 Q251 395 278 389" fill="none" stroke="#cbb3a9" stroke-width="3"/></g>
+        <path d="M185 352 Q195 362 211 358 M290 359 Q306 360 315 349" stroke="#68736d" stroke-width="3" opacity=".65" fill="none"/>
+        <path d="M145 238 Q128 311 162 393 Q179 459 223 476 Q148 463 129 407 Q102 311 124 222Z" fill="#20202b"/>
+        <path d="M360 238 Q383 329 337 421 Q315 471 278 480 Q377 458 389 354Z" fill="#171722"/>
+        <path d="M126 182 Q146 78 243 70 Q322 62 372 165" fill="none" stroke="#34313e" stroke-width="17"/>
+        <g opacity=".65"><circle cx="162" cy="355" r="7" fill="#dac198"/><circle cx="342" cy="355" r="7" fill="#dac198"/></g>
+        <path d="M247 566 L247 647" stroke="#bca77e" stroke-width="2" stroke-dasharray="3 18"/>
+        <path d="M195 515 Q251 560 306 515" stroke="#a38b67" stroke-width="3" opacity=".8" fill="none"/>
+      </svg>
+      <div class="painting-vignette"></div><div class="corruption-overlay" aria-hidden="true"></div><div class="painting-sheen"></div>
+    </div></div></div>
+    <div class="portrait-plaque"><span class="plaque-flourish">❧</span><div id="characterName">MADAME MORROW</div><small id="characterSubtitle">Keeper of the Last Word</small></div>
+    <div class="subtitle" id="subtitle" aria-live="polite"></div>
+  </div>
+  <div class="display-hud"><span class="hud-dot" id="hudDot"></span><span id="hudText">Sleeping</span><button id="settingsButton" class="hud-button" aria-label="Open portrait settings" title="Settings">⚙</button></div>
+  <div class="setup-scrim" id="setupScrim"><section class="setup-card"><div class="overline">THE PORTRAIT IS WAITING</div><h1>Awaken the <em>portrait.</em></h1><p>Connect this tablet to the same room as your phone remote. A tap is required to enable audio in the browser.</p>
+    <form id="connectForm" class="setup-form"><label>ROOM NAME<input name="room" id="roomInput" minlength="3" maxlength="24" autocomplete="off" required value="halloween" placeholder="halloween"></label><label>PRIVATE PIN<input name="pin" id="pinInput" type="password" minlength="6" required placeholder="Your private PIN"></label><button class="gold-button" type="submit">AWAKEN THE PORTRAIT <span>✦</span></button></form>
+    <p class="form-status" id="formStatus" role="status"></p><small class="setup-hint">Tip: open this display fullscreen and keep the tablet plugged in. Browser text-to-speech voices vary by device.</small>
+  </section></div>
+  <aside class="display-settings" id="displaySettings" hidden><div class="settings-title">PORTRAIT CONTROLS <button id="closeSettings" aria-label="Close">✕</button></div><label>Spoken voice<select id="voiceSelect"><option value="">Default device voice</option></select></label><label class="toggle"><input id="subtitlesToggle" type="checkbox" checked> Show subtitles</label><label class="toggle"><input id="idleToggle" type="checkbox" checked> Subtle idle movement</label><label class="toggle"><input id="gazeToggle" type="checkbox" checked> Follow finger movement</label><small id="liveVoiceStatus">Live microphone: idle</small><button id="testVoice" class="outline-button">Test voice</button><button id="reconnectButton" class="outline-button">Change room or PIN</button><button id="fullscreenButton" class="outline-button">Fullscreen</button><small id="connectionInfo">Not connected</small></aside>
+</div><script type="module" src="/assets/portrait.js"></script></body></html>

@@ -1,0 +1,12 @@
+{
+  "name": "haunted-portrait",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Phone-controlled live-voice Halloween talking portrait for Vercel and Android tablets",
+  "scripts": {
+    "dev": "node server.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

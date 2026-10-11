@@ -1,0 +1,15 @@
+{
+  "id": "/portrait.html",
+  "name": "The Haunted Portrait — Display",
+  "short_name": "Haunted Portrait",
+  "start_url": "/portrait.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0c0a12",
+  "theme_color": "#0c0a12",
+  "icons": [
+    {"src":"/assets/icon-192.png","sizes":"192x192","type":"image/png"},
+    {"src":"/assets/icon-512.png","sizes":"512x512","type":"image/png"}
+  ]
+}
